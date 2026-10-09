@@ -3,8 +3,8 @@ import Container from "./Container";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/about", label: "About SaaS" },
+  { href: "/contact", label: "Links" },
 ];
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       <Container>
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-lg font-bold text-slate-900">
-            Francwow
+            Sims as a Service
           </Link>
           <nav aria-label="Main navigation">
             <ul className="flex items-center gap-6">
